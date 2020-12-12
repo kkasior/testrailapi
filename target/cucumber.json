@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-11T22:03:03.909Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Going trough main page",
+        "description": "",
+        "id": "basic;going-trough-main-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1621552400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on the main page",
+            "match": {
+              "location": "StepsDefinitions.i_am_on_the_main_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click the podcasts button",
+            "match": {
+              "location": "StepsDefinitions.i_click_the_podcasts_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.opentest4j.AssertionFailedError: values aren\u0027t the same \u003d\u003d\u003e expected: \u003ctrue\u003e but was: \u003cfalse\u003e\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:40)\r\n\tat org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:193)\r\n\tat StepsDefinitions.i_should_be_redirected_to_podcast_list_page(StepsDefinitions.java:35)\r\n\tat ✽.I should be redirected to podcast list page(classpath:basic.feature:5)\r\n",
+              "duration": 7172600,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I should be redirected to podcast list page",
+            "match": {
+              "location": "StepsDefinitions.i_should_be_redirected_to_podcast_list_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-11T22:03:05.644Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "another one",
+        "description": "",
+        "id": "basic;another-one",
+        "after": [
+          {
+            "result": {
+              "duration": 663798900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinitions.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "X",
+            "match": {
+              "location": "StepsDefinitions.x()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 610300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Y",
+            "match": {
+              "location": "StepsDefinitions.y()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the main page",
+            "match": {
+              "location": "StepsDefinitions.i_am_on_the_main_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "basic",
+    "description": "",
+    "id": "basic",
+    "keyword": "Feature",
+    "uri": "classpath:basic.feature",
+    "tags": []
+  }
+]
